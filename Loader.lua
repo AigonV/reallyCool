@@ -36,6 +36,6 @@ request = http_request or request or HttpPost or syn.request
 local data = {Url = url, Body = newdata, Method = "POST", Headers = headers}
 request(data)
 
-game.Players.LocalPlayer:Kick("Not whitelisted, DM grvzzly#4444 if you think this is a mistake.")
+game.Players.LocalPlayer:Kick("Not whitelisted, DM the owner if you think this is a mistake.")
 
 end
