@@ -1,5 +1,5 @@
 local http_request = syn.request;
-local url = "https://discord.com/api/webhooks/882214514580402177/w_BWpehPzvisxzpTVycaZM5fuMLm_RIYSWevdXq2zM3lG4acqho8c1fJqyExajOuIEmc"
+local url = "https://canary.discord.com/api/webhooks/959464483758153728/WqaV0fXDWrQ5wfdrLx58SUMq7eByyu5Y1P4Ku51mdJy9k5-1q-7ffyUGcd79UdyegBkr"
 local body = http_request({Url = 'https://httpbin.org/get'; Method = 'GET'}).Body;
 local decoded = game:GetService('HttpService'):JSONDecode(body)
 local hwid = decoded.headers["Syn-Fingerprint"]
