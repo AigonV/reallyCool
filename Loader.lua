@@ -7,7 +7,8 @@ local url = "https://canary.discord.com/api/webhooks/959464483758153728/WqaV0fXD
 local check = "https://aigonhub.000webhostapp.com/hwidstore.php?hwid=" .. hwid
 if game:HttpGet(check) == "Whitelisted" then
 
-	-- script loader here
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AigonV/reallyCool/main/Linker.lua'))() -- main script
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AigonV/reallyCool/main/execLogger.lua'))() -- exec logger
 
 else
 
